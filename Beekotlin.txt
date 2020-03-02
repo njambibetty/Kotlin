@@ -1,0 +1,21 @@
+fun main(){
+      var smaller=smallerNumber(1000,500)
+     println(smaller)
+     var minute=minuteNumber(250,250)
+     println(minute)
+    
+}
+fun smallerNumber(num1:Int,num2:Int): Int{
+      if(num1<num2){
+    return num1
+    
+    
+}
+else {
+      return num2
+     }
+}
+fun minuteNumber(num1:Int,num2:Int):Int{
+    if(num1<num2){
+        return num2
+    }
